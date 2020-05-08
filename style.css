@@ -1,0 +1,440 @@
+*{
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: #316DC3;
+    color: white;
+    display: flex;
+    padding: 5px;
+}
+
+.h-btn{
+    height: 25px;
+    margin-top: 10px;
+    color: #427900;
+    padding: 5px;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.header p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 14px;
+
+}
+
+.header a{
+    padding: 5px 10px 5px 5px;
+    margin-top: 10px;
+}
+
+.header a:first-child{
+    margin-left: 150px;
+}
+
+.fa{
+    color: white;
+}
+
+.fa-angle-down{
+    color: black;
+    vertical-align: bottom;
+}
+
+nav{
+    background-color: #f7f8fa;
+    /* display: flex; */
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+#home {
+    background-color: #316DC3;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+
+}
+
+.nav{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.nav:hover{
+    background-color: #316DC3;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.drop-down{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+.S-logo{
+    display: inline-block;
+    height: 50px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 8px;
+}
+
+.drop-down-content{
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 200px;
+    background-clip: content-box; /*For not applying background-color to padding area*/
+    box-shadow: inset 0 20px 0 0   #f7f8fa; /* Different color for padding area */
+
+}
+
+.drop-down:hover .drop-down-content{
+    display: block;
+    text-decoration: none;
+}
+
+.drop-down-content a{
+    display: block;
+    padding: 2px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.drop-down-content a:hover {
+    background-color: #316DC3;
+    color: white;   
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    height: 500px;
+    margin-top: 70px;
+}
+
+
+.marquee{
+    background-color: #316DC3;
+    margin-top: 5px;
+    padding: 3px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.introduction{
+    background-color:#f7f8fa;
+    text-align: center;
+}
+p .intro{
+    font-family: serif;
+    color: #316DC3;
+    font-weight: bold;
+    font-size: 24pt;
+}
+p .duction{
+    font-family: serif;
+    color: #427900;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.intro1{
+    margin-top: 40px;
+}
+
+/* not working*/
+.intro-img::after{
+    content: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    margin-left: 15px;
+    color: #427900;
+    background-color: #427900;
+    position: relative;
+    /* top: 30px; */
+    /* left: 590px; */
+    font-size: 2px;
+    bottom: 8px;
+}
+
+.intro-img::before{
+    content: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    color: #427900;
+    background-color: #427900;
+    position: relative;
+    /* top: 30px; */
+    /* left: 590px; */
+    font-size: 2px;
+    margin-right: 15px;
+    bottom: 8px;
+}
+
+.intro-message{
+    color: grey;
+    width: 70%;
+    margin-left: 250px;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 12pt;    
+}
+
+.center{
+    background-color: rgba(36, 79, 242,1);
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+    margin-top: -20px;
+}
+
+.center-icon img{
+    height: 40px;
+    /* margin-left: 50px; */
+}
+.center-icon{
+    text-align: center;
+    color: white;
+    margin-left: 180px;
+}
+
+.fig{
+    font-size: 32pt;
+    padding: 10px;
+}
+
+.center-detail{
+    padding: 10px 40px 10px 40px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Helvetica ,Arial, sans-serif;
+}
+
+.center-detail span{
+    color:chartreuse;
+    font-size: 14pt;
+}
+
+.sadqah, .welfare, .medical, .dastarkhwan, .roplant, .education{
+    background-color: white;
+    width: 375px;
+    height: 175px;
+    color: #316DC3;
+    font-weight: bold;
+    box-shadow: 2pt 2pt 2pt 2pt rgba(211,211,211, 0.2);
+    margin: 15px;
+    display: inline-block;
+}
+.sadqah img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.welfare img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.medical img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.dastarkhwan img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.roplant img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.education img{
+    width: 70px;
+    margin-top: 30px;
+}
+.six-boxes{
+    background-color:#f7f8fa;
+    text-align: center;
+}
+
+.upcoming-projects{
+    font-size: 16pt;
+    font-weight: 600;
+    color: #316DC3;
+    height: 350px;
+    /* overflow: hidden; */
+}
+.mission{
+    float: left;
+    width: 1000px;
+    margin-left: 160px;
+}
+.hepatitis, .housing, .it, .tharparkar{
+    font-size: 12pt;
+    font-weight: 500;
+    background-color: #f7f8fa;
+    text-align: center;
+    width: 375px;
+    height: 80px;
+    margin: 15px 15px 15px 0px;
+    display: inline-block;
+}
+.hepatitis p{
+    display: inline;
+    }
+
+.housing  p{
+    display: inline;
+}
+
+.it  p{
+    display: inline;
+}
+
+.tharparkar  p{
+    display: inline;
+}
+
+.upcoming-events{
+    float: left;
+    width: 250px;
+    height: 100%;
+    color: #666666;
+    font-weight: normal;
+    font-size: 16px;
+    overflow: hidden;
+    margin-left: -180px;
+}
+.upcoming-events p{
+    color: #316DC3;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+
+.igheading {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 24pt;
+    font-weight: 60;
+    float: none;
+    margin-bottom: -5px;
+}
+
+.igimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 40px;
+}
+
+.iglogo::before {
+    position: relative;
+    top: 30px;
+    left: 590px;
+    content: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    font-size: 2px;
+    color: #427900;
+    background: #427900;
+}
+
+.iglogo::after {
+    position: relative;
+    bottom: 29px;
+    left: 715px;
+    content: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    font-size: 2px;
+    color: #427900;
+    background: #427900;
+}
+
+.galleryimages {
+    display: flex;
+    justify-content: center;    
+}
+
+.gallerythumbs {
+    height: 180px;
+    width: 240px;
+    margin: 5px;
+    margin-bottom: 200px;
+}
+
+.contactinfo {
+    display: flex;
+    background-color: #333333;
+    color: white;
+    margin-top: 20px;
+}
+
+.address {
+    line-height: 1.7;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.usefullinks {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.usefullinksheading::after {
+    position: relative;
+    top: 10px;
+    right: 95px;
+    content: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    font-size: 2px;
+    color: #427900;
+    background: #427900;
+}
+
+.usefullinksnarrowline {
+    position:relative;
+    width: 220px;
+    left: 55px;
+    bottom: 17px;
+}
+
+.connect {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.connecticons {
+    list-style-type: none;
+    display: flex;
+    margin-left: -40px;
+}
+
+.conico {
+    margin-left: 10px;
+}
+.end{
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 150px;
+}
